@@ -1,0 +1,143 @@
+.game {
+    width: 720px;
+    border: solid 1px #ddd;
+    margin: 0 auto;
+    background: darkgreen;
+    border: solid 10px;
+    text-align:center;
+    min-height:700px;
+    background-image: linear-gradient(black, darkgreen);
+}
+
+.btn {
+    border:none;
+    padding: 10px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:dodgerblue;
+}
+
+.game h1 {
+    padding: 10px;
+    background:black;
+    color:white;
+}
+
+.game-body {
+    box-sizing: content-box;
+}
+
+.game .game-body {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game .game-options {
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+}
+
+.game .game-options button {
+    margin-left: 5px;
+}
+.game .card {
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+    align-self: flex-end;
+}
+
+.hand {
+    min-height: 115px;
+}
+
+.deck {
+    align-self: flex-end;
+    background: white;
+    color:#222;
+    border-radius:10px;
+    border: double 5px;
+    width: 50px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+}
+
+.game .status {
+    display: inline-block;
+    background: gold;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display:none;
+}
+
+
+.players {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.player {
+    padding: 10px;
+    margin:1%;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.player.active {
+    border: solid 5px #222;
+}
+
+.points {
+    text-align: start;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+#deckcount {
+    text-align: center;
+}
+
+.btn {
+    background:#222;
+    color:white !important;
+    border-radius: 10px;
+}
+
+button[disabled] {
+    opacity: 0.5;
+}
+.playerName {
+    font-size: 24px;
+    color: white;
+}
+
+.player-status>div{
+    display: inline-block;
+}
