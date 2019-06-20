@@ -3,8 +3,7 @@ Blackjack cards game
 
 JavaScript and JQuery using
 
-check live demo: [here](gkblackjack.netlify.com)
-[I'm an inline-style link](https://gkblackjack.netlify.com)
+check live demo: [here](https://gkblackjack.netlify.com)
 
 ![startScreen](https://user-images.githubusercontent.com/51907055/59860768-31b08c80-9388-11e9-8206-7b19ce26ce56.JPG)
 
