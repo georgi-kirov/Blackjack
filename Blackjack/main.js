@@ -92,13 +92,11 @@ var startBlackjack = (function() {
             playersHTML += playerHTML;
         }
 
-        
-        // getPos($('#Dealer'))
         $('#players').html(playersHTML);
     }
     
     function shuffle() {
-        for (var i = 0; i < 51; i++) {
+        for (var i = 0; i < 52; i++) {
             var location1 = Math.floor((Math.random() * deck.length));
             var location2 = Math.floor((Math.random() * deck.length));
             var tmp = deck[location1];
